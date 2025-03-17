@@ -127,12 +127,12 @@
           <span id="score" class="text-2xl font-bold font-normal"
             >Kamu sudah menyelesaikan essai</span
           >
-          <a
-            href="/"
+          <button
+            onclick="home()"
             class="w-full bg-blue-400 text-white px-4 py-2 rounded-2xl font-normal cursor-pointer text-center"
           >
             Kembali kemenu utama
-          </a>
+          </button>
         </div>
       </div>
     </section>
@@ -165,6 +165,10 @@
             soalResult.isArabic;
         }
       });
+
+      function home() {
+        window.location.href = `${window.location.origin}`;
+      }
 
       function localStorageGetter() {
         const getSoal = localStorage.getItem(`essai`);
