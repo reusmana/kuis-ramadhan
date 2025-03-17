@@ -1,0 +1,105 @@
+{
+  "title": "soal A",
+  "data": [
+    {
+      "soal": "Sesuatu yang apabila dikerjakan tdk mengapa apa bila di tinggalkan mendapat pahala adalah ...",
+      "pilihan": ["Sunnah", "Mubah", "Makruh", "Haram"],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Makruh"
+    },
+    {
+      "soal": "Menghidupkan burung dari tanah liat adalah mukjizat dari nabi ...",
+      "pilihan": ["Yahya As", "Ilyasa As", "Zakaria As", "Zulkifli As"],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Yahya As"
+    },
+    {
+      "soal": "Sahabat yg di juluki AL Faruq Pembeda antara yg benar dan yg salah adalah",
+      "pilihan": [
+        "Ali Bin Abi Thalib​",
+        "Abu Hurairah​",
+        "Umar Bin Khattab​",
+        "Bilal Bin Rabah​"
+      ],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Umar Bin Khattab"
+    },
+    {
+      "soal": "Malaikat yang bertugas menjaga pintu neraka adalah ...​",
+      "pilihan": [
+        "Malaikat Ridwan​",
+        "Malaikat Atid​",
+        "Malaikat Malik​",
+        "Malaikat Israfil​"
+      ],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Malaikat Malik"
+    },
+    {
+      "soal": "Bacaan ayat yg tepat utk mengisi potongan ayat tsb adalah?​",
+      "pilihan": [
+        "طَعَامٌ اِلَّ​",
+        "مِنۡ عَيۡنٍ​",
+        "نَارًا حَا​",
+        "عَيۡنٌ جَا​"
+      ],
+      "isArabic": "تُسۡقٰى ...... اٰنِيَةٍؕ​",
+      "jawaban": "B",
+      "penjelasan": "مِنۡ عَيۡنٍ​"
+    },
+    {
+      "soal": "Perintah berhaji terdapat dalam Al Qur'an surat dan ayat berapa",
+      "pilihan": [
+        "Surat Al – Maidah ayat 3",
+        "Surat Al – Imran ayat 97​",
+        "Surat Al – Isra ayat 23​",
+        "Surat Al – Baqarah ayat 195​"
+      ],
+      "isArabic": "",
+      "jawaban": "B",
+      "penjelasan": "Surat Al – Imran ayat 97​"
+    },
+    {
+      "soal": "Jawaban yang tepat untuk melanjutkan ayat tersebut adalah ....​",
+      "pilihan": ["شِدَادًا​", "مَعَاشًا​", "اَلۡفَافًا​", "اَفۡوَاجًا​"],
+      "isArabic": "وَّجَعَلۡنَا النَّهَارَ​",
+      "jawaban": "B",
+      "penjelasan": "مَعَاشًا​"
+    },
+    {
+      "soal": "Al Khaliq dalam asmaul husna memiliki arti ...",
+      "pilihan": [
+        "Yang maha pencipta​",
+        "Yang maha mengatur​",
+        "Yang maha pengampun​",
+        "Yang maha mengetahui​"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "​Yang maha pencipta​"
+    },
+    {
+      "soal": "Ada berapa kitab suci yang Allah SWT turunkan kepada Rasulnya ...​",
+      "pilihan": ["1 kitab", "2 kitab", "4 kitab", "5 kitab"],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "4 kitab"
+    },
+    {
+      "soal": "Imam ahmad bin hanbal lahir dimana dan tahun berapa ...​",
+      "pilihan": [
+        "Mary (Turkmenistan) tahun 164 hijriah",
+        "Madinah tahun 90 hijriah",
+        "Kuffah (irak) tahun 96 hijriah",
+        "Naisabur (iran) tahun 204 hijriah"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Mary (Turkmenistan) tahun 164 hijriah"
+    }
+  ]
+}

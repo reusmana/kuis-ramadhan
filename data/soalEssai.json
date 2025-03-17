@@ -1,0 +1,79 @@
+{
+  "title": "soal Essai",
+  "data": [
+    {
+      "soal": "Nabi apa yg terdapat pada gambar & Sebutkan apa saja Mukzijatnya?",
+      "img": "../assets/essai/musa.png",
+      "isArabic": "",
+      "jawaban": [
+        "TONGKAT BERUBAH MENJADI ULAR",
+        "MEMBELAH LAUT MERAH​",
+        "TANGANNYA MENGELUARKAN CAHAYA PUTIH​"
+      ],
+      "jawabanImg": ""
+    },
+    {
+      "soal": "Labbaikallahumma labbaik, Apa sebutan untuk bacaan tersebut?",
+      "img": "../assets/essai/kabah.png",
+      "isArabic": "",
+      "jawaban": "TALBIYAH",
+      "jawabanImg": ""
+    },
+    {
+      "soal": "Sebutkan Pedoman utama umat muslim dalam beragama?",
+      "img": "../assets/essai/hadist.png",
+      "isArabic": "",
+      "jawaban": "AL QUR'AN DAN HADIST",
+      "jawabanImg": ""
+    },
+    {
+      "soal": "Lanjutan dari ayat tersebut adalah?",
+      "img": "../assets/essai/bismillah.png",
+      "isArabic": "​وَمَآ اُمِرُوْٓا اِلَّا لِيَعْبُدُوا اللّٰهَ مُخْلِصِيْنَ لَهُ الدِّيْنَ ەۙ​",
+      "jawaban": "​مُخْلِصِيْنَ لَهُ الدِّيْنَ ەۙ حُنَفَاۤءَ وَيُقِيْمُوا الصَّلٰوةَ وَيُؤْتُوا الزَّكٰوةَ وَذٰلِكَ دِيْنُ الْقَيِّمَةِۗ​",
+      "jawabanImg": ""
+    },
+    {
+      "soal": "Sholat sunnah Istisqo adalah sholat untuk ...",
+      "img": "../assets/essai/jamaah.png",
+      "isArabic": "",
+      "jawaban": "Meminta Hujan",
+      "jawabanImg": ""
+    },
+    {
+      "soal": "Siapakah orang yang pertama kali masuk islam ...",
+      "img": "../assets/essai/siti.png",
+      "isArabic": "",
+      "jawaban": "Istri rasullulah yaitu Ummul Mu'minin Khadijah Binti Khuwailid",
+      "jawabanImg": ""
+    },
+    {
+      "soal": "Bacakan Surat Ad Dhuha",
+      "img": "../assets/essai/ad-dhuha.png",
+      "isArabic": "",
+      "jawaban": "",
+      "jawabanImg": "../assets/essai/bacaan-dhuha.png"
+    },
+    {
+      "soal": "Dimanakah Lokasi Baitul Maqdis dan Masjidil Aqsa",
+      "img": "../assets/essai/mekah.png",
+      "isArabic": "",
+      "jawaban": "PALESTINA",
+      "jawabanImg": ""
+    },
+    {
+      "soal": "Siapakah Nabi Allah yang di telan kedalam perut Ikan Paus ...",
+      "img": "../assets/essai/paus.png",
+      "isArabic": "",
+      "jawaban": "Nabi Yunus as.​",
+      "jawabanImg": ""
+    },
+    {
+      "soal": "siapa nabi yang ada di gambar di atas dan siapa raja yg membakarnya ...",
+      "img": "../assets/essai/burn.png",
+      "isArabic": "",
+      "jawaban": "NABI IBRAHIM AS. DAN RAJA NAMRUD",
+      "jawabanImg": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./fonts/BerkahRaya-Demo-Regular.otf") format("opentype"),
+    url("./fonts/BerkahRaya-Demo-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "MyCustomFont", sans-serif;
+}
+
+h2 {
+  font-family: "MyCustomFont", sans-serif;
+}
+
+.font-normal {
+  font-family: sans-serif;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pilihan ganda</title>
+    <link rel="stylesheet" href="../index.css" type="text/css" />
+  </head>
+  <body>
+    <section class="relative w-full min-h-screen overflow-x-hidden">
+      <div
+        class="flex flex-col justify-center items-center bg-[url('/assets/10563527.jpg')] bg-cover bg-center min-h-[100vh] h-full py-10 gap-10 px-2 overflow-x-hidden"
+      >
+        <h1 class="title-kuis text-4xl font-normal">KUIS SOAL ESSAI</h1>
+        <div
+          class="relative max-w-[800px] w-full md:min-h-[700px] min-h-[600px]"
+        >
+          <div
+            class="w-full h-full bg-blue-400 rounded-2xl rotate-[3deg] absolute z-1"
+          ></div>
+          <div
+            class="w-full h-full bg-green-500 rounded-2xl rotate-[-3deg] absolute z-2"
+          ></div>
+          <div
+            class="w-full h-full bg-white/90 rounded-2xl absolute z-10 flex justify-between items-center flex-col py-5 px-6"
+          >
+            <span></span>
+            <div class="flex flex-col gap-5">
+              <img
+                id="imageSoal"
+                src=""
+                class="object-cover max-h-[400px] w-full rounded-xl"
+                alt=""
+              />
+              <h1
+                id="title-question-isArabic"
+                class="font-normal text-4xl font-bold title-question self-end"
+              ></h1>
+              <h1
+                id="title-question"
+                class="font-normal lg:text-4xl md:text-3xl text-2xl font-bold title-question"
+              ></h1>
+            </div>
+            <button
+              class="font-normal px-4 py-2 bg-green-400 text-white rounded-xl cursor-pointer"
+              onclick="lihatJawaban()"
+            >
+              Lihat Jawaban
+            </button>
+            <div class="flex justify-center items-center mt-10 gap-5">
+              <button class="cursor-pointer" onclick="arrowQuestion('prev')">
+                <img
+                  src="../assets/icons8-next-50.png"
+                  alt=""
+                  class="rotate-180 w-10 h-10"
+                />
+              </button>
+              <h1 class="text-4xl font-bold" id="numberPage">1</h1>
+              <span class="text-2xl font-bold">/</span>
+              <h1 id="totalSoal" class="text-2xl font-bold">10</h1>
+              <button class="cursor-pointer" onclick="arrowQuestion('next')">
+                <img
+                  src="../assets/icons8-next-50.png"
+                  alt=""
+                  class="rotate-0 w-10 h-10"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="overlay"
+        class="absolute hidden top-0 left-0 right-0 bottom-0 z-32 flex justify-center items-center bg-black/50 py-10 px-5 min-h-screen"
+        onclick="closeOverlay(event)"
+      >
+        <div
+          class="max-w-[800px] w-full md:min-h-[800px] min-h-[400px] bg-white rounded-2xl flex flex-col justify-between items-center gap-5 py-5 relative overflow-x-hidden px-2"
+          onclick="event.stopPropagation()"
+        >
+          <h1 class="font-normal text-4xl font-bold">Jawaban nya adalah</h1>
+          <div class="flex flex-col justify-center items-center">
+            <div
+              class="flex flex-col justify-center items-center flex-wrap"
+              id="jawaban"
+            ></div>
+            <span id="image-jawaban" class="flex w-full justify-center pr-26">
+            </span>
+          </div>
+          <div>
+            <button
+              class="font-normal text-xl font-bold px-4 py-2 bg-blue-400 text-white rounded-xl cursor-pointer"
+              onclick="arrowQuestions()"
+            >
+              Next Question
+            </button>
+            <button
+              class="font-normal text-xl font-bold px-4 py-2 bg-red-400 text-white rounded-xl cursor-pointer"
+              onclick="closeOverlay()"
+            >
+              Close
+            </button>
+          </div>
+          <img
+            src="../assets/41754-removebg-preview.png"
+            class="absolute md:-right-6 -right-10 bottom-0 w-32"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        id="scors-overlay"
+        class="absolute hidden top-0 left-0 right-0 bottom-0 z-32 bg-opacity-[50%] flex justify-center items-center overflow-x-hidden py-32 bg-black/50 px-5 py-10 min-h-screen"
+        onclick="closeOverlay(event)"
+      >
+        <div
+          class="w-[500px] h-[500px] bg-white rounded-2xl flex flex-col justify-between items-center gap-5 py-5 relative px-5"
+          onclick="event.stopPropagation()"
+        >
+          <img src="../assets/party.png" class="absolute w-32 left-2" alt="" />
+          <img
+            src="../assets/party.png"
+            class="absolute w-32 right-4 rotate-260 bottom-10"
+            alt=""
+          />
+          <h1 class="text-4xl font-normal font-bold">SELAMAT</h1>
+          <span id="score" class="text-2xl font-bold font-normal"
+            >Kamu sudah menyelesaikan essai</span
+          >
+          <a
+            href="/"
+            class="w-full bg-blue-400 text-white px-4 py-2 rounded-2xl font-normal cursor-pointer text-center"
+          >
+            Kembali kemenu utama
+          </a>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+      let soalResult;
+      let soalRes;
+      let totalSoal;
+      const overlay = document.getElementById("overlay");
+      const jawaban = document.getElementById("jawaban");
+      const jawabanImg = document.getElementById("image-jawaban");
+      const status = document.getElementById("status");
+      const ifWrong = document.getElementById("ifWrong");
+      const soalTrue = document.getElementById("soalTrue");
+      const imageSoal = document.getElementById("imageSoal");
+      const scoreOverlay = document.getElementById("scors-overlay");
+      document.addEventListener("DOMContentLoaded", async function () {
+        await localStorageGetter();
+        document.getElementById("numberPage").innerText = soalRes.index + 1;
+        const soal = await fetch(`../data/soalEssai.json`);
+        const soalJson = await soal.json();
+        totalSoal = soalJson.data.length - 1;
+        document.getElementById("totalSoal").innerText = soalJson.data.length;
+        soalResult = soalJson.data[soalRes.index];
+        imageSoal.src = soalResult.img;
+        document.getElementById("title-question").innerText = soalResult.soal;
+
+        if (soalResult.isArabic) {
+          document.getElementById("title-question-isArabic").innerText =
+            soalResult.isArabic;
+        }
+      });
+
+      function localStorageGetter() {
+        const getSoal = localStorage.getItem(`essai`);
+
+        if (getSoal) {
+          const declare = JSON.parse(getSoal);
+          if (declare.final) {
+            const soals = {
+              index: 0,
+              final: false,
+            };
+            localStorage.setItem(`essai`, JSON.stringify(soals));
+          } else {
+            return (soalRes = JSON.parse(getSoal));
+          }
+        } else {
+          const soals = {
+            index: 0,
+            final: false,
+          };
+          localStorage.setItem(`essai`, JSON.stringify(soals));
+        }
+        const getSoals = localStorage.getItem(`essai`);
+        return (soalRes = JSON.parse(getSoals));
+      }
+
+      function lihatJawaban() {
+        jawaban.innerHTML = "";
+        jawabanImg.innerHTML = "";
+        overlay.classList.remove("hidden");
+        if (soalResult.jawabanImg) {
+          console.log(soalResult.jawabanImg);
+          const imageCreated = document.createElement("img");
+          imageCreated.src = `../assets/essai/bacaan-dhuha.png`;
+          jawabanImg.appendChild(imageCreated);
+        }
+
+        if (Array.isArray(soalResult.jawaban)) {
+          soalResult.jawaban.forEach((val, index) => {
+            const createAnswer = document.createElement("span");
+            createAnswer.classList.add(
+              "font-normal",
+              "md:text-4xl",
+              "text-xl",
+              "font-bold",
+              "self-start",
+              "md:pl-5",
+              "pl-2",
+              "md:pr-1",
+              "pr-5"
+            );
+            createAnswer.innerText = `${index + 1}. ${val}`;
+            jawaban.appendChild(createAnswer);
+          });
+        } else {
+          const createAnswer = document.createElement("span");
+          createAnswer.classList.add(
+            "font-normal",
+            "md:text-4xl",
+            "text-xl",
+            "font-bold",
+            "self-start",
+            "md:pl-5",
+            "pl-2",
+            "md:pr-1",
+            "pr-5"
+          );
+          createAnswer.innerText = `${soalResult.jawaban}`;
+          jawaban.appendChild(createAnswer);
+          const soalResVal = {
+            ...soalRes,
+            index: soalRes.index + 1,
+            final: soalRes.index === totalSoal ? true : false,
+          };
+          localStorage.setItem(`essai`, JSON.stringify(soalResVal));
+        }
+      }
+
+      function arrowQuestions() {
+        if (soalRes.index === totalSoal) {
+          scoreOverlay.classList.remove("hidden");
+          return;
+        }
+        overlay.classList.add("hidden");
+        const soalResVal = {
+          ...soalRes,
+          index: soalRes.index + 1,
+          final: soalRes.index === totalSoal ? true : false,
+        };
+        localStorage.setItem(`essai`, JSON.stringify(soalResVal));
+        window.location.reload();
+      }
+
+      function closeOverlay() {
+        overlay.classList.add("hidden");
+      }
+
+      function arrowQuestion(action) {
+        if (action === "next") {
+          if (soalRes.index === totalSoal) {
+            scoreOverlay.classList.remove("hidden");
+            return;
+          }
+          const soalResVal = {
+            ...soalRes,
+            index: soalRes.index + 1,
+            final: soalRes.index === totalSoal ? true : false,
+          };
+          localStorage.setItem(`essai`, JSON.stringify(soalResVal));
+          window.location.reload();
+        } else {
+          if (soalRes.index === 0) {
+            return;
+          }
+          const soalResVal = {
+            ...soalRes,
+            index: soalRes.index - 1,
+          };
+          localStorage.setItem(`essai`, JSON.stringify(soalResVal));
+          window.location.reload();
+        }
+      }
+    </script>
+  </body>
+</html>

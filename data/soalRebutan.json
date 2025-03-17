@@ -1,0 +1,160 @@
+{
+  "title": "soal Rebutan",
+  "data": [
+    {
+      "soal": "Jumlah Rakaat Sholat Sunnah Rawatib dalam sehari adalah….​",
+      "pilihan": ["23 Rakaat", "2 Rakaat", "12 Rakaat", "4 Rakaat"],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "12 Rakaat"
+    },
+    {
+      "soal": "​Berikut adalah Mukjizat Nabi Muhammad Rasullulah rasulullah shallallahu alaihi wasallam, kecuali...​",
+      "pilihan": [
+        "Kitab Suci Al-Qur'an​​​",
+        "Isra & Mi'raj​​",
+        "Laut Terbelah​",
+        "Air mengalir dari jari tangan​​"
+      ],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Laut Terbelah​"
+    },
+    {
+      "soal": "Apa arti dari Qs. Al Mulk...​",
+      "pilihan": [
+        "Kerajaan",
+        "Berita Besar​",
+        "Sapi Betina​",
+        "Gususan Bintang​"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Kerajaan"
+    },
+    {
+      "soal": "Berikut Nabi-Nabi yang termasuk Nabi Ulul Azmi, kecuali...​",
+      "pilihan": [
+        "Nabi Adam As​",
+        "Nabi Nuh As​",
+        "Nabi Ibrahim As​",
+        "Nabi Musa As​"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Nabi Adam As​"
+    },
+    {
+      "soal": "Sesuatu yang diyakini dalam hati, diucapkan secara lisan dan dilakukan dengan amal perbuatan disebut...​",
+      "pilihan": ["Iman", "Islam", "Ihsan", "Amalan​"],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Iman"
+    },
+    {
+      "soal": "Siapakah sahabat Rasul yang mendampingi Rasullullah saat Hijrah ke Madinah / Yastrib...​",
+      "pilihan": [
+        "Ali Bin Abi Thalib​",
+        "Ustman Bin Affan​",
+        "Umar Bin Khattab​",
+        "Abu Bakar Ash-Shiddiq​"
+      ],
+      "isArabic": "",
+      "jawaban": "D",
+      "penjelasan": "Abu Bakar Ash-Shiddiq​"
+    },
+    {
+      "soal": "Siapakah Perempuan yang menjadi ibu susu Rasulullah sewaktu kecil...​",
+      "pilihan": [
+        "Asiyah binti Mujahim​",
+        "maryam binti Imran​",
+        "Halimah binti Abi Dzuaib​",
+        "Khadijah binti Khuwailid​"
+      ],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Halimah binti Abi Dzuaib​"
+    },
+    {
+      "soal": "Air Kencing bayi yang baru mengkonsumsi asi termasuk golongan najis...​",
+      "pilihan": ["Mughalladzah", "Mukhoffafah", "Mutawassithoh", "Ma'fu​"],
+      "isArabic": "",
+      "jawaban": "B",
+      "penjelasan": "Mukhoffafah"
+    },
+    {
+      "soal": "Mencukur seluruh / sebagian rambut oleh setiap jamaah Haji dan Umrah disebut...​",
+      "pilihan": ["WUKUF", "THAWAF", "SA'I", "TAHALLUL"],
+      "isArabic": "",
+      "jawaban": "D",
+      "penjelasan": "TAHALLUL"
+    },
+    {
+      "soal": "Kitab Suci Al – Qur'an terdiri dari...​",
+      "pilihan": [
+        "30 juz, 112 surat, dan 6.236 ayat",
+        "30 juz, 114 surat, dan 6.236 ayat",
+        "30 juz, 112 surat, dan 6.666 ayat",
+        "30 juz, 114 surat, dan 6.666 ayat"
+      ],
+      "isArabic": "",
+      "jawaban": "B",
+      "penjelasan": "30 juz, 114 surat, dan 6.236 ayat"
+    },
+    {
+      "soal": "Kapan pertama kali waktu turunnya Wahyu Al Qur'an​",
+      "pilihan": [
+        "15 Ramadhan​",
+        "16 Ramadhan​",
+        "17 Ramadhan​",
+        "18 Ramadhan​"
+      ],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "17 Ramadhan​"
+    },
+    {
+      "soal": "Hari dimana manusia dibangkitkan dari alam kubur untuk di hitung amal perbuatannya disebut....​",
+      "pilihan": [
+        "Yaumul Barzakh​",
+        "Yaumul Mahsyar​",
+        "Yaumul Ba'ats​",
+        "Yaumul Jaza​"
+      ],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Yaumul Ba'ats​"
+    },
+    {
+      "soal": "Perintah untuk berpuasa Ramadhan terdapat pada surat dan ayat berapa....​",
+      "pilihan": [
+        "Al Baqarah ayat 182​",
+        "At Taubah ayat 102​",
+        "Al Baqarah ayat 183​",
+        "At Taubah ayat 103​"
+      ],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Al Baqarah ayat 183​"
+    },
+    {
+      "soal": "Potongan ayat di atas terdapat pada surat...",
+      "pilihan": [
+        "QS. Az-A'la​",
+        "QS. Al-Ghasyiyah​",
+        "QS. Al-Lail​",
+        "QS. Az-Zariyat​"
+      ],
+      "isArabic": "فَذَكِّرۡ اِنَّمَاۤ اَنۡتَ مُذَكِّرٌ",
+      "jawaban": "B",
+      "penjelasan": "QS. Al-Ghasyiyah​"
+    },
+    {
+      "soal": "Rasullullah mendapatkan gelar Al Amin yg artinya...​",
+      "pilihan": ["Cerdas", "Dapat Dipercaya​", "Benar", "Menyampaikan"],
+      "isArabic": "",
+      "jawaban": "B",
+      "penjelasan": "Dapat Dipercaya​"
+    }
+  ]
+}

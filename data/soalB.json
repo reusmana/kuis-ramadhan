@@ -1,0 +1,110 @@
+{
+  "title": "soal B",
+  "data": [
+    {
+      "soal": "Sesuatu yang apabila kerjakan mendapat pahala apa bila di tinggalkan berdosa adalah ...",
+      "pilihan": ["Haram", "Mubah", "Sunnah", "Wajib"],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Sunnah"
+    },
+    {
+      "soal": "Mampu menafsirkan mimpi adalah mukjizat dari nabi ...",
+      "pilihan": ["Syuaib As​", "Yaqub As", "Yusuf As​", "Musa As"],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Yusuf As"
+    },
+    {
+      "soal": "Sahabat yg di juluki Dzunnurain / pemilik dua cahaya adalah ...​",
+      "pilihan": [
+        "Ustman Bin Affan",
+        "Ali Bin Abi thalib​",
+        "Zubair Bin Awwam​",
+        "Abu Bakar Ash Siddiq​​"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Ustman Bin Affan​"
+    },
+    {
+      "soal": "Malaikat yang bertugas mencabut nyawa adalah ...​",
+      "pilihan": [
+        "Malaikat Jibril​",
+        "Malaikat Munkar​",
+        "Malaikat Malik​",
+        "Malaikat Izrail​"
+      ],
+      "isArabic": "",
+      "jawaban": "D",
+      "penjelasan": "Malaikat Izrail​"
+    },
+    {
+      "soal": "Bacaan ayat yg tepat utk mengisi potongan ayat tsb adalah?​",
+      "pilihan": [
+        "عَيۡنٌ جَا​",
+        "كَيۡفَ سُطِحَتۡ​",
+        "اِلَى الۡاِ بِلِ​",
+        "طَعَامٌ اِلَّا مِنۡ​​"
+      ],
+      "isArabic": "لَـيۡسَ لَهُمۡ ..... ضَرِيۡعٍۙ​",
+      "jawaban": "D",
+      "penjelasan": "طَعَامٌ اِلَّا مِنۡ"
+    },
+    {
+      "soal": "Perintah Menutup aurat / berhijab pada wanita terdapat dalam Al Qur'an pada surat dan ayat berapa ...",
+      "pilihan": [
+        "Surat Al – Ahzab ayat 59​",
+        "Surat Al – Maidah ayat 6​",
+        "Surat Ibrahim ayat 7​",
+        "Surat Al – Baqarah ayat 190​"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Surat Al – Ahzab ayat 59​"
+    },
+    {
+      "soal": "Jawaban yang tepat untuk melanjutkan ayat tersebut adalah ...​",
+      "pilihan": [
+        "الَّيۡلَ لِبَاسًا​",
+        "سَيَعۡلَمُوۡنَ",
+        "حَبًّا وَّنَبَاتًا​",
+        "اَزۡوَاجًا​"
+      ],
+      "isArabic": " وَّخَلَقۡنٰكُمۡ​",
+      "jawaban": "D",
+      "penjelasan": "اَزۡوَاجًا​"
+    },
+    {
+      "soal": "Al Ghaffaar dalam asmaul husna memiliki arti ...​",
+      "pilihan": [
+        "Yang maha mengetahui​",
+        "Yang maha pembuka rahmat​",
+        "Yang maha mendengar​",
+        "Yang maha pengampun​"
+      ],
+      "isArabic": "",
+      "jawaban": "D",
+      "penjelasan": "Yang maha pengampun​"
+    },
+    {
+      "soal": "Berapa jumlah Rasul yang wajib di ketahui adalah ...​",
+      "pilihan": ["24 Rasul", "25 Rasul", "26 Rasul", "27 Rasul"],
+      "isArabic": "",
+      "jawaban": "B",
+      "penjelasan": "25 Rasul"
+    },
+    {
+      "soal": "Muhamad bin idris / Imam syafi'i lahir dimana dan tahun berapa ...​",
+      "pilihan": [
+        "Ghaza (Palestine) tahun 150 hijriah​",
+        "Madinah tahun 21 hijriah​",
+        "Kuffah ( irak ) tahun 80 hijriah​",
+        "Mary (Turkmenistan) tahun 164 hijriah​"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Ghaza (Palestine) tahun 150 hijriah​"
+    }
+  ]
+}

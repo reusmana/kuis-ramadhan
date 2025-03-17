@@ -1,0 +1,110 @@
+{
+  "title": "soal C",
+  "data": [
+    {
+      "soal": "Sesuatu yang apabila dikerjakan mendapat pahala bila di tinggalkan tdk mengapa adalah ...​",
+      "pilihan": ["Sunnah", "Wajib", "Haram", "Makruh"],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Sunnah"
+    },
+    {
+      "soal": "Memiliki suara merdu adalah mukjizat nabi ...​",
+      "pilihan": ["Sulaiman As​​", "Ilyas As​", "Daud As​", "Luth As"],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Daud As"
+    },
+    {
+      "soal": "Sahabat yang di juluki Babul ilm yang berarti pintu ilmu pengetahuan adalah...​",
+      "pilihan": [
+        "Abu Bakar Ash Shiddiq​",
+        "Abi Thalib bin Abdul Muthalib​",
+        "Hamzah bin Abdul Muthalib​",
+        "Ali Bin Abi Thalib​​"
+      ],
+      "isArabic": "",
+      "jawaban": "D",
+      "penjelasan": "Ali Bin Abi Thalib​"
+    },
+    {
+      "soal": "Malaikat yang bertugas menurunkan rizki adalah …​",
+      "pilihan": [
+        "Malaikat Mikail​",
+        "Malaikat Israfil​",
+        "Malaikat Izrail​",
+        "Malaikat Munkar​"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Malaikat Mikail​​"
+    },
+    {
+      "soal": "Bacaan ayat yg tepat utk mengisi potongan ayat tsb adalah?",
+      "pilihan": [
+        "مَصۡفُوۡفَةٌ​",
+        "سُرُرٌ مَّرۡ​",
+        "كَيۡفَ نُصِبَتۡ​",
+        "اَنۡتَ مُذَكِّرٌ​​"
+      ],
+      "isArabic": "فِيۡهَا ..... فُوۡعَةٌ​",
+      "jawaban": "B",
+      "penjelasan": "سُرُرٌ مَّرۡ"
+    },
+    {
+      "soal": "Perintah Berzakat terdapat dalam Al Qur'an pada surat dan ayat berapa ...​",
+      "pilihan": [
+        "Surat An – Nisa ayat 3 dan 4​",
+        "Surat Al – Baqarah ayat 215​",
+        "Surat Al – Jumuah ayat 10",
+        "Surat At – Taubah ayat 103​"
+      ],
+      "isArabic": "",
+      "jawaban": "D",
+      "penjelasan": "Surat At – Taubah ayat 103​"
+    },
+    {
+      "soal": "Jawaban yang tepat untuk melanjutkan ayat tersebut adalah ...",
+      "pilihan": [
+        "نَوۡمَكُمۡ سُبَاتًا​",
+        "سَيَعۡلَمُوۡنَ​",
+        "سِرَاجًا وَّهَّاجًا​",
+        "حَبًّا وَّنَبَاتًا​"
+      ],
+      "isArabic": "ثُمَّ كَلَّا​",
+      "jawaban": "B",
+      "penjelasan": "سَيَعۡلَمُوۡنَ​"
+    },
+    {
+      "soal": "Al Jabbar dalam asmaul husna memiliki arti ...​",
+      "pilihan": [
+        "Yang maha melapangkan​",
+        "Yang maha meninggikan​",
+        "Yang maha perkasa​",
+        "Yang maha lembut​"
+      ],
+      "isArabic": "",
+      "jawaban": "C",
+      "penjelasan": "Yang maha perkasa​"
+    },
+    {
+      "soal": "Berapa jumlah malaikat allah yang wajib diketahui ...​",
+      "pilihan": ["7 Malaikat", "8 Malaikat", "9 Malaikat", "10 Malaikat"],
+      "isArabic": "",
+      "jawaban": "D",
+      "penjelasan": "10 Malaikat"
+    },
+    {
+      "soal": "Imam Malik Bin Anas lahir dimana dan tahun berapa​",
+      "pilihan": [
+        "Madinah tahun 90 hijriah​",
+        "Kuffah ( irak ) 107 hijriah​",
+        "Bukhara (uzbekistan) tahun 194 hijriah​",
+        "Naisabur (iran) 204 hijriah​"
+      ],
+      "isArabic": "",
+      "jawaban": "A",
+      "penjelasan": "Madinah tahun 90 hijriah​"
+    }
+  ]
+}

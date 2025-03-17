@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+  </head>
+  <body>
+    <section
+      class="text-3xl font-bold flex gap-4 flex-col justify-center items-center min-h-[100vh] bg-[#AEF359] relative py-16"
+    >
+      <h2 class="text-6xl">Lomba</h2>
+      <h1 class="xl:text-[100px] lg:text-[80px] md:text-[60px] text-[40px]">
+        Anak Muslim
+      </h1>
+      <img src="./assets//6907635-removebg-preview.png" alt="" srcset="" />
+
+      <button>
+        <img
+          id="playbuttonhome"
+          src="./assets/—Pngtree—yellow play button_854581.png"
+          alt="playbuttonhome"
+          class="absolute cursor-pointer w-46 h-46 z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4"
+        />
+      </button>
+
+      <div
+        id="overlay"
+        class="absolute top-0 left-0 right-0 bottom-0 z-32 bg-opacity-[50%] flex justify-center items-center hidden bg-black/50 px-5 py-10"
+        onclick="closeOverlay(event)"
+      >
+        <div
+          class="w-[500px] h-[500px] bg-white rounded-2xl flex flex-col justify-center items-center gap-5"
+          onclick="event.stopPropagation()"
+        >
+          <h2>Pilih KuisMu</h2>
+          <div class="flex gap-4 flex-wrap px-5 justify-center font-normal">
+            <a
+              href="./screens/pilihan-ganda.html?query=A"
+              class="flex flex-col items-center px-4 py-2 bg-blue-400 rounded-2xl text-white cursor-pointer"
+            >
+              KUIS A
+            </a>
+            <a
+              href="./screens/pilihan-ganda.html?query=B"
+              class="flex flex-col items-center px-4 py-2 bg-blue-400 rounded-2xl text-white cursor-pointer"
+            >
+              KUIS B
+            </a>
+            <a
+              href="./screens/pilihan-ganda.html?query=C"
+              class="flex flex-col items-center px-4 py-2 bg-blue-400 rounded-2xl text-white cursor-pointer"
+            >
+              KUIS C
+            </a>
+            <a
+              href="./screens/pilihan-ganda.html?query=D"
+              class="flex flex-col items-center px-4 py-2 bg-blue-400 rounded-2xl text-white cursor-pointer"
+            >
+              KUIS D
+            </a>
+            <a
+              href="./screens/pilihan-essai.html"
+              class="flex flex-col items-center px-4 py-2 bg-blue-400 rounded-2xl text-white cursor-pointer"
+            >
+              KUIS ESSAI
+            </a>
+            <a
+              href="./screens/pilihan-ganda.html?query=Rebutan"
+              class="flex flex-col items-center px-4 py-2 bg-blue-400 rounded-2xl text-white cursor-pointer"
+            >
+              KUIS REBUTAN
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

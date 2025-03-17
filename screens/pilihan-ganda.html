@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pilihan ganda</title>
+    <link rel="stylesheet" href="../index.css" type="text/css" />
+  </head>
+  <body>
+    <section class="relative w-full min-h-screen overflow-x-hidden">
+      <div
+        class="flex flex-col justify-center items-center bg-[url('/assets/10563527.jpg')] bg-cover bg-center min-h-[100vh] py-10 gap-10 px-2 overflow-x-hidden"
+      >
+        <h1 class="title-kuis text-4xl font-normal">
+          KUIS SOAL <span id="pageTitle" class="font-normal"></span>
+        </h1>
+        <div
+          class="relative max-w-[800px] w-full md:min-h-[500px] min-h-[800px]"
+        >
+          <div
+            class="w-full h-full bg-blue-400 rounded-2xl rotate-[3deg] absolute z-1"
+          ></div>
+          <div
+            class="w-full h-full bg-green-500 rounded-2xl rotate-[-3deg] absolute z-2"
+          ></div>
+          <div
+            class="w-full h-full bg-white/90 rounded-2xl absolute z-10 flex justify-between items-center flex-col py-5 px-6"
+          >
+            <span></span>
+            <div class="flex flex-col">
+              <h1
+                id="title-question"
+                class="font-normal text-4xl font-bold title-question"
+              ></h1>
+              <h1
+                id="title-question-isArabic"
+                class="font-normal text-4xl font-bold title-question self-end"
+              ></h1>
+              <div
+                id="pilihan"
+                class="grid md:grid-cols-2 gap-5 mt-10 font-normal justify-center items-center grid-cols-1"
+              ></div>
+            </div>
+            <!-- <span
+              id="getsoal"
+              class="top-1 left-1 absolute font-normal text-md"
+            ></span> -->
+            <div class="flex justify-center items-center mt-10 gap-5">
+              <button class="cursor-pointer" onclick="arrowQuestion('prev')">
+                <img
+                  src="../assets/icons8-next-50.png"
+                  alt=""
+                  class="rotate-180 w-10 h-10"
+                />
+              </button>
+              <h1 class="text-4xl font-bold" id="numberPage">1</h1>
+              <span class="text-2xl font-bold">/</span>
+              <h1 id="totalSoal" class="text-2xl font-bold">10</h1>
+              <button class="cursor-pointer" onclick="arrowQuestion('next')">
+                <img
+                  src="../assets/icons8-next-50.png"
+                  alt=""
+                  class="rotate-0 w-10 h-10"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="overlay"
+        class="absolute hidden top-0 left-0 right-0 bottom-0 z-32 flex justify-center items-center bg-black/50 py-10 px-5 min-h-screen"
+        onclick="closeOverlay(event)"
+      >
+        <div
+          class="max-w-[500px] w-full min-h-[500px] bg-white rounded-2xl flex flex-col justify-between items-center gap-5 py-5 relative overflow-x-hidden px-2"
+          onclick="event.stopPropagation()"
+        >
+          <h1 class="font-normal text-4xl font-bold">Jawaban nya adalah</h1>
+          <div class="flex flex-col justify-center items-center">
+            <span id="jawaban" class="font-normal text-xl font-bold"
+              >A. Makruh</span
+            >
+            <span id="image-jawaban" class="flex w-full justify-center"> </span>
+            <span id="status" class="text-2xl">Benar</span>
+            <div
+              id="ifWrong"
+              class="hidden w-full mt-6 flex flex-col justify-center items-center font-normal text-xl font-bold bg-green-400 px-4 py-2 rounded-2xl text-white"
+            >
+              <h1>
+                Yang benar adalah
+                <span class="flex items-center gap-2">
+                  <h2 id="soalTrue" class="font-normal">C. Makruh</h2>
+                  <img
+                    src="../assets/true-removebg-preview.png"
+                    alt=""
+                    class="w-6"
+                  />
+                </span>
+              </h1>
+            </div>
+          </div>
+          <button
+            class="font-normal text-xl font-bold px-4 py-2 bg-blue-400 text-white rounded-xl cursor-pointer"
+            onclick="arrowQuestions()"
+          >
+            Next Question
+          </button>
+          <img
+            src="../assets/41754-removebg-preview.png"
+            class="absolute md:-right-6 -right-6 bottom-0 w-32"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        id="scors-overlay"
+        class="absolute top-0 hidden left-0 right-0 bottom-0 z-32 bg-opacity-[50%] flex justify-center items-center overflow-x-hidden py-32 bg-black/50 px-5 py-10 min-h-screen"
+        onclick="closeOverlay(event)"
+      >
+        <div
+          class="w-[500px] h-[500px] bg-white rounded-2xl flex flex-col justify-between items-center gap-5 py-5 relative px-5"
+          onclick="event.stopPropagation()"
+        >
+          <img src="../assets/party.png" class="absolute w-32 left-2" alt="" />
+          <img
+            src="../assets/party.png"
+            class="absolute w-32 right-4 rotate-260 bottom-10"
+            alt=""
+          />
+          <h1 class="text-4xl font-normal font-bold">SKOR KAMU</h1>
+          <span id="score" class="text-[150px] font-bold">70</span>
+          <a
+            href="/"
+            class="w-full bg-blue-400 text-white px-4 py-2 rounded-2xl font-normal cursor-pointer text-center"
+          >
+            Kembali kemenu utama
+          </a>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+      let soalResult;
+      let soalRes;
+      let titleSoal;
+      let updatedAnswer;
+      let totalSoal;
+      let soalJsonArr;
+      const overlay = document.getElementById("overlay");
+      const jawaban = document.getElementById("jawaban");
+      const jawabanImg = document.getElementById("image-jawaban");
+      const status = document.getElementById("status");
+      const ifWrong = document.getElementById("ifWrong");
+      const soalTrue = document.getElementById("soalTrue");
+      const scoreOverlay = document.getElementById("scors-overlay");
+      const score = document.getElementById("score");
+      document.addEventListener("DOMContentLoaded", async function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const title = urlParams.get("query") || "Default Title";
+
+        await localStorageGetter(title);
+        titleSoal = title;
+        document.getElementById("numberPage").innerText = soalRes.index + 1;
+
+        document.getElementById("pageTitle").innerText = title;
+        const soal = await fetch(`../data/soal${title}.json`);
+        const soalJson = await soal.json();
+        soalJsonArr = soalJson.data;
+        totalSoal = soalJson.data.length - 1;
+        document.getElementById("totalSoal").innerText = soalJson.data.length;
+        soalResult = soalJson.data[soalRes.index];
+        // document.getElementById("getsoal").innerText = soalJson.title;
+        document.getElementById("title-question").innerText = soalResult.soal;
+
+        if (soalResult.isArabic) {
+          document.getElementById("title-question-isArabic").innerText =
+            soalResult.isArabic;
+        }
+
+        const pilihan = document.getElementById("pilihan");
+
+        let choosedFilled;
+        soalResult.pilihan.forEach((val, index) => {
+          const butt = document.createElement("button");
+
+          if (soalRes.answer[soalRes.index]) {
+            choosedFilled = soalRes.answer[soalRes.index];
+          }
+          let label =
+            index === 0 ? "A" : index === 1 ? "B" : index === 2 ? "C" : "D";
+          butt.innerText = `${label}. ${val}`;
+
+          butt.classList.add(
+            choosedFilled === label ? "bg-blue-500" : "bg-white",
+            "border-2",
+            "flex",
+            "justify-start",
+            "cursor-pointer",
+            "border-blue-500",
+            "hover:bg-blue-500",
+
+            choosedFilled === label ? "text-white" : "text-slate-700",
+            "hover:text-white",
+            "font-normal",
+            soalResult.isArabic ? "text-2xl" : "text-lg",
+            "py-2",
+            "px-4",
+            "rounded",
+            "w-full"
+          );
+
+          butt.setAttribute("onclick", `choseAnswer("${label}", "${val}")`);
+
+          document.getElementById("pilihan").appendChild(butt);
+        });
+      });
+
+      function localStorageGetter(title) {
+        const getSoal = localStorage.getItem(`soal${title}`);
+
+        if (getSoal) {
+          const declare = JSON.parse(getSoal);
+          if (declare.final) {
+            const soals = {
+              index: 0,
+              answerTrue: 0,
+              answerFalse: 0,
+              soal: title,
+              final: false,
+              answer: [],
+            };
+            localStorage.setItem(`soal${title}`, JSON.stringify(soals));
+          } else {
+            return (soalRes = JSON.parse(getSoal));
+          }
+        } else {
+          const soals = {
+            index: 0,
+            answerTrue: 0,
+            answerFalse: 0,
+            soal: title,
+            final: false,
+            answer: [],
+          };
+          localStorage.setItem(`soal${title}`, JSON.stringify(soals));
+        }
+        const getSoals = localStorage.getItem(`soal${title}`);
+        return (soalRes = JSON.parse(getSoals));
+      }
+
+      function choseAnswer(answer, pilihan) {
+        overlay.classList.remove("hidden");
+        const imageCreated = document.createElement("img");
+        imageCreated.classList.add("w-32");
+        jawaban.innerText = `${answer}. ${pilihan}`;
+        if (answer === soalResult.jawaban) {
+          soalRes.answerTrue++;
+          imageCreated.src = "../assets/true.png";
+          status.innerText = "Benar";
+          ifWrong.classList.add("hidden");
+        } else {
+          soalRes.answerFalse++;
+          imageCreated.src = "../assets/false.png";
+          status.innerText = "Salah";
+          ifWrong.classList.remove("hidden");
+          soalTrue.innerText = `${soalResult.jawaban}. ${soalResult.penjelasan}`;
+        }
+        jawabanImg.appendChild(imageCreated);
+
+        updatedAnswer = soalRes.answer ? [...soalRes.answer] : [];
+        updatedAnswer[soalRes.index] = answer;
+        const soalResVal = {
+          ...soalRes,
+          index: soalRes.index + 1,
+          final: soalRes.index === totalSoal ? true : false,
+          answer: updatedAnswer,
+        };
+        console.log(soalResVal);
+        localStorage.setItem(`soal${titleSoal}`, JSON.stringify(soalResVal));
+      }
+
+      function arrowQuestions() {
+        if (soalRes.index === totalSoal) {
+          scoreOverlay.classList.remove("hidden");
+          const scores = getScore();
+          score.innerText = scores * 10;
+          return;
+        }
+        overlay.classList.add("hidden");
+        const soalResVal = {
+          ...soalRes,
+          index: soalRes.index + 1,
+          final: soalRes.index === totalSoal ? true : false,
+          answer: updatedAnswer,
+        };
+        localStorage.setItem(`soal${titleSoal}`, JSON.stringify(soalResVal));
+        window.location.reload();
+      }
+
+      function arrowQuestion(action) {
+        if (action === "next") {
+          if (soalRes.index === totalSoal) {
+            scoreOverlay.classList.remove("hidden");
+            const scores = getScore();
+            score.innerText = scores * 10;
+            return;
+          }
+          const soalResVal = {
+            ...soalRes,
+            index: soalRes.index + 1,
+            final: soalRes.index === totalSoal ? true : false,
+            // answer: updatedAnswer,
+          };
+          localStorage.setItem(`soal${titleSoal}`, JSON.stringify(soalResVal));
+          window.location.reload();
+        } else {
+          if (soalRes.index === 0) {
+            return;
+          }
+          const soalResVal = {
+            ...soalRes,
+            index: soalRes.index - 1,
+          };
+          localStorage.setItem(`soal${titleSoal}`, JSON.stringify(soalResVal));
+          window.location.reload();
+        }
+      }
+
+      function getScore() {
+        let scores = 0;
+        soalJsonArr.forEach((val, index) => {
+          if (soalRes.answer[index]) {
+            if (soalRes.answer[index] === val.jawaban) {
+              scores++;
+            }
+          }
+        });
+        return scores;
+      }
+    </script>
+  </body>
+</html>
