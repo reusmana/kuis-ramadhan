@@ -6,7 +6,8 @@
       "pilihan": ["23 Rakaat", "2 Rakaat", "12 Rakaat", "4 Rakaat"],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "12 Rakaat"
+      "penjelasan": "12 Rakaat",
+      "description": ""
     },
     {
       "soal": "​Berikut adalah Mukjizat Nabi Muhammad Rasullulah rasulullah shallallahu alaihi wasallam, kecuali...​",
@@ -18,7 +19,8 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Laut Terbelah​"
+      "penjelasan": "Laut Terbelah​",
+      "description": ""
     },
     {
       "soal": "Apa arti dari Qs. Al Mulk...​",
@@ -30,7 +32,8 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Kerajaan"
+      "penjelasan": "Kerajaan",
+      "description": ""
     },
     {
       "soal": "Berikut Nabi-Nabi yang termasuk Nabi Ulul Azmi, kecuali...​",
@@ -42,14 +45,16 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Nabi Adam As​"
+      "penjelasan": "Nabi Adam As​",
+      "description": ""
     },
     {
       "soal": "Sesuatu yang diyakini dalam hati, diucapkan secara lisan dan dilakukan dengan amal perbuatan disebut...​",
       "pilihan": ["Iman", "Islam", "Ihsan", "Amalan​"],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Iman"
+      "penjelasan": "Iman",
+      "description": ""
     },
     {
       "soal": "Siapakah sahabat Rasul yang mendampingi Rasullullah saat Hijrah ke Madinah / Yastrib...​",
@@ -61,7 +66,8 @@
       ],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "Abu Bakar Ash-Shiddiq​"
+      "penjelasan": "Abu Bakar Ash-Shiddiq​",
+      "description": ""
     },
     {
       "soal": "Siapakah Perempuan yang menjadi ibu susu Rasulullah sewaktu kecil...​",
@@ -73,21 +79,24 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Halimah binti Abi Dzuaib​"
+      "penjelasan": "Halimah binti Abi Dzuaib​",
+      "description": ""
     },
     {
       "soal": "Air Kencing bayi yang baru mengkonsumsi asi termasuk golongan najis...​",
       "pilihan": ["Mughalladzah", "Mukhoffafah", "Mutawassithoh", "Ma'fu​"],
       "isArabic": "",
       "jawaban": "B",
-      "penjelasan": "Mukhoffafah"
+      "penjelasan": "Mukhoffafah",
+      "description": ""
     },
     {
       "soal": "Mencukur seluruh / sebagian rambut oleh setiap jamaah Haji dan Umrah disebut...​",
       "pilihan": ["WUKUF", "THAWAF", "SA'I", "TAHALLUL"],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "TAHALLUL"
+      "penjelasan": "TAHALLUL",
+      "description": ""
     },
     {
       "soal": "Kitab Suci Al – Qur'an terdiri dari...​",
@@ -99,7 +108,8 @@
       ],
       "isArabic": "",
       "jawaban": "B",
-      "penjelasan": "30 juz, 114 surat, dan 6.236 ayat"
+      "penjelasan": "30 juz, 114 surat, dan 6.236 ayat",
+      "description": ""
     },
     {
       "soal": "Kapan pertama kali waktu turunnya Wahyu Al Qur'an​",
@@ -111,7 +121,8 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "17 Ramadhan​"
+      "penjelasan": "17 Ramadhan​",
+      "description": ""
     },
     {
       "soal": "Hari dimana manusia dibangkitkan dari alam kubur untuk di hitung amal perbuatannya disebut....​",
@@ -123,7 +134,8 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Yaumul Ba'ats​"
+      "penjelasan": "Yaumul Ba'ats​",
+      "description": ""
     },
     {
       "soal": "Perintah untuk berpuasa Ramadhan terdapat pada surat dan ayat berapa....​",
@@ -135,7 +147,8 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Al Baqarah ayat 183​"
+      "penjelasan": "Al Baqarah ayat 183​",
+      "description": "Wahai orang-orang yang beriman, diwajibkan atas kamu berpuasa sebagaimana diwajibkan atas orang-orang sebelum kamu agar kamu bertakwa."
     },
     {
       "soal": "Potongan ayat di atas terdapat pada surat...",
@@ -147,14 +160,16 @@
       ],
       "isArabic": "فَذَكِّرۡ اِنَّمَاۤ اَنۡتَ مُذَكِّرٌ",
       "jawaban": "B",
-      "penjelasan": "QS. Al-Ghasyiyah​"
+      "penjelasan": "QS. Al-Ghasyiyah​",
+      "description": ""
     },
     {
       "soal": "Rasullullah mendapatkan gelar Al Amin yg artinya...​",
       "pilihan": ["Cerdas", "Dapat Dipercaya​", "Benar", "Menyampaikan"],
       "isArabic": "",
       "jawaban": "B",
-      "penjelasan": "Dapat Dipercaya​"
+      "penjelasan": "Dapat Dipercaya​",
+      "description": ""
     }
   ]
 }

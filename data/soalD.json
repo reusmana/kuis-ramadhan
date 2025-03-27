@@ -6,14 +6,16 @@
       "pilihan": ["Wajib", "Haram", "Sunnah", "Mubah"],
       "isArabic": "",
       "jawaban": "B",
-      "penjelasan": "Haram"
+      "penjelasan": "Haram",
+      "description": ""
     },
     {
       "soal": "Unta betina keluar dari batu besar adalah mukjizat nabi ...​",
       "pilihan": ["Adam As​​", "Idris As​", "Hud As​", "Shaleh As​"],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "Shaleh As"
+      "penjelasan": "Shaleh As",
+      "description": ""
     },
     {
       "soal": "Sahabat yang di juluki Saifullah Al Maslul / Pedang Allah yang terhunus adalah ...​",
@@ -25,7 +27,8 @@
       ],
       "isArabic": "",
       "jawaban": "B",
-      "penjelasan": "Khalid Bin Walid​"
+      "penjelasan": "Khalid Bin Walid​",
+      "description": ""
     },
     {
       "soal": "Perintah menuntut ilmu dalam Al Qur'an terdapat pada surat dan ayat berapa ...​",
@@ -37,7 +40,8 @@
       ],
       "isArabic": "",
       "jawaban": "B",
-      "penjelasan": "Surat Al – Alaq ayat 1"
+      "penjelasan": "Surat Al – Alaq ayat 1",
+      "description": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan!"
     },
     {
       "soal": "Bacaan ayat yg tepat utk mengisi potongan ayat tsb adalah?",
@@ -49,7 +53,8 @@
       ],
       "isArabic": "وَّاَكۡوَا .....عَةٌ​",
       "jawaban": "C",
-      "penjelasan": "بٌ مَّوۡضُوۡ​"
+      "penjelasan": "بٌ مَّوۡضُوۡ​",
+      "description": ""
     },
     {
       "soal": "Dlm sebuah HR Muslim no 1631. Tiga perkara yang amalannya tdk terputus pahala walau telah meninggal dunia, Kecuali ?​",
@@ -61,7 +66,8 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Berbakti kepada orang tua​"
+      "penjelasan": "Berbakti kepada orang tua​",
+      "description": ""
     },
     {
       "soal": "Jawaban yang tepat untuk melanjutkan ayat tersebut adalah...​",
@@ -73,7 +79,8 @@
       ],
       "isArabic": "الَّذِىۡ هُمۡ​",
       "jawaban": "C",
-      "penjelasan": "فِيۡهِ مُخۡتَلِفُوۡنَؕ​"
+      "penjelasan": "فِيۡهِ مُخۡتَلِفُوۡنَؕ​",
+      "description": ""
     },
     {
       "soal": "Al Qahhaar dalam asmaul husna memiliki arti ...​",
@@ -85,14 +92,16 @@
       ],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "Yang maha penakluk​"
+      "penjelasan": "Yang maha penakluk​",
+      "description": ""
     },
     {
       "soal": "Sahabat khulafaur Rasyidin berjumlah berapa orang ...​",
       "pilihan": ["2 Orang", "3 Orang", "4 Orang", "5 Orang"],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "4 Orang"
+      "penjelasan": "4 Orang",
+      "description": ""
     },
     {
       "soal": "Imam Abu Hanifah / imam hanafi Lahir dimana & tahun berapa ...​",
@@ -104,7 +113,8 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Kuffah ( irak ) tahun 80 hijriah​"
+      "penjelasan": "Kuffah ( irak ) tahun 80 hijriah​",
+      "description": ""
     }
   ]
 }

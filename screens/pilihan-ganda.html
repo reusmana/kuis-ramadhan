@@ -84,20 +84,39 @@
             <span id="image-jawaban" class="flex w-full justify-center"> </span>
             <span id="status" class="text-2xl">Benar</span>
             <div
-              id="ifWrong"
-              class="hidden w-full mt-6 flex flex-col justify-center items-center font-normal text-xl font-bold bg-green-400 px-4 py-2 rounded-2xl text-white"
+              class="flex flex-col lg:pr-18 pr-18 bg-green-400 rounded-2xl mt-6"
             >
-              <h1>
-                Yang benar adalah
-                <span class="flex items-center gap-2">
-                  <h2 id="soalTrue" class="font-normal">C. Makruh</h2>
-                  <img
-                    src="../assets/true-removebg-preview.png"
-                    alt=""
-                    class="w-6"
-                  />
-                </span>
-              </h1>
+              <div
+                id="ifWrong"
+                class="w-full hidden flex flex-col justify-center items-center font-normal text-xl font-bold bg-green-400 px-4 py-2 rounded-2xl text-white"
+              >
+                <h1>
+                  Yang benar adalah
+                  <span class="flex items-center gap-2">
+                    <h2 id="soalTrue" class="font-normal">C. Makruh</h2>
+                    <img
+                      src="../assets/true-removebg-preview.png"
+                      alt=""
+                      class="w-6"
+                    />
+                  </span>
+                </h1>
+              </div>
+              <div
+                id="ifHasDescription"
+                class="w-full hidden flex flex-col justify-start items-start font-normal text-xl font-bold bg-green-400 px-4 py-2 rounded-2xl text-white"
+              >
+                <h1 class="flex flex-col">
+                  Terjemahan
+                  <span class="flex items-center">
+                    <h2 id="description" class="font-normal">
+                      "Ambilah zakat dari sebagian harta mereka, dengan zakat
+                      itu kamu membersihkan dan mensucikan mereka dan mendoalah
+                      untuk mereka."
+                    </h2>
+                  </span>
+                </h1>
+              </div>
             </div>
           </div>
           <button
@@ -155,6 +174,8 @@
       const soalTrue = document.getElementById("soalTrue");
       const scoreOverlay = document.getElementById("scors-overlay");
       const score = document.getElementById("score");
+      const ifHasDescription = document.getElementById("ifHasDescription");
+      const description = document.getElementById("description");
       document.addEventListener("DOMContentLoaded", async function () {
         const urlParams = new URLSearchParams(window.location.search);
         const title = urlParams.get("query") || "Default Title";
@@ -262,6 +283,11 @@
           imageCreated.src = "../assets/true.png";
           status.innerText = "Benar";
           ifWrong.classList.add("hidden");
+
+          if (soalResult.description != "") {
+            ifHasDescription.classList.remove("hidden");
+            description.innerText = `"${soalResult.description}"`;
+          }
         } else {
           soalRes.answerFalse++;
           imageCreated.src = "../assets/false.png";

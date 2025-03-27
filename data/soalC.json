@@ -6,14 +6,16 @@
       "pilihan": ["Sunnah", "Wajib", "Haram", "Makruh"],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Sunnah"
+      "penjelasan": "Sunnah",
+      "description": ""
     },
     {
       "soal": "Memiliki suara merdu adalah mukjizat nabi ...​",
       "pilihan": ["Sulaiman As​​", "Ilyas As​", "Daud As​", "Luth As"],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Daud As"
+      "penjelasan": "Daud As",
+      "description": ""
     },
     {
       "soal": "Sahabat yang di juluki Babul ilm yang berarti pintu ilmu pengetahuan adalah...​",
@@ -25,7 +27,8 @@
       ],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "Ali Bin Abi Thalib​"
+      "penjelasan": "Ali Bin Abi Thalib​",
+      "description": ""
     },
     {
       "soal": "Malaikat yang bertugas menurunkan rizki adalah …​",
@@ -37,7 +40,8 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Malaikat Mikail​​"
+      "penjelasan": "Malaikat Mikail​​",
+      "description": ""
     },
     {
       "soal": "Bacaan ayat yg tepat utk mengisi potongan ayat tsb adalah?",
@@ -49,7 +53,8 @@
       ],
       "isArabic": "فِيۡهَا ..... فُوۡعَةٌ​",
       "jawaban": "B",
-      "penjelasan": "سُرُرٌ مَّرۡ"
+      "penjelasan": "سُرُرٌ مَّرۡ",
+      "description": ""
     },
     {
       "soal": "Perintah Berzakat terdapat dalam Al Qur'an pada surat dan ayat berapa ...​",
@@ -61,7 +66,8 @@
       ],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "Surat At – Taubah ayat 103​"
+      "penjelasan": "Surat At – Taubah ayat 103​",
+      "description": "Ambilah zakat dari sebagian harta mereka, dengan zakat itu kamu membersihkan dan mensucikan mereka dan mendoalah untuk mereka."
     },
     {
       "soal": "Jawaban yang tepat untuk melanjutkan ayat tersebut adalah ...",
@@ -73,7 +79,8 @@
       ],
       "isArabic": "ثُمَّ كَلَّا​",
       "jawaban": "B",
-      "penjelasan": "سَيَعۡلَمُوۡنَ​"
+      "penjelasan": "سَيَعۡلَمُوۡنَ​",
+      "description": ""
     },
     {
       "soal": "Al Jabbar dalam asmaul husna memiliki arti ...​",
@@ -85,14 +92,16 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Yang maha perkasa​"
+      "penjelasan": "Yang maha perkasa​",
+      "description": ""
     },
     {
       "soal": "Berapa jumlah malaikat allah yang wajib diketahui ...​",
       "pilihan": ["7 Malaikat", "8 Malaikat", "9 Malaikat", "10 Malaikat"],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "10 Malaikat"
+      "penjelasan": "10 Malaikat",
+      "description": ""
     },
     {
       "soal": "Imam Malik Bin Anas lahir dimana dan tahun berapa​",
@@ -104,7 +113,8 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Madinah tahun 90 hijriah​"
+      "penjelasan": "Madinah tahun 90 hijriah​",
+      "description": ""
     }
   ]
 }

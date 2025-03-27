@@ -6,14 +6,16 @@
       "pilihan": ["Sunnah", "Mubah", "Makruh", "Haram"],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Makruh"
+      "penjelasan": "Makruh",
+      "description": ""
     },
     {
       "soal": "Menghidupkan burung dari tanah liat adalah mukjizat dari nabi ...",
       "pilihan": ["Yahya As", "Ilyasa As", "Zakaria As", "Zulkifli As"],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Yahya As"
+      "penjelasan": "Yahya As",
+      "description": ""
     },
     {
       "soal": "Sahabat yg di juluki AL Faruq Pembeda antara yg benar dan yg salah adalah",
@@ -25,7 +27,8 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Umar Bin Khattab"
+      "penjelasan": "Umar Bin Khattab",
+      "description": ""
     },
     {
       "soal": "Malaikat yang bertugas menjaga pintu neraka adalah ...​",
@@ -37,7 +40,8 @@
       ],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Malaikat Malik"
+      "penjelasan": "Malaikat Malik",
+      "description": ""
     },
     {
       "soal": "Bacaan ayat yg tepat utk mengisi potongan ayat tsb adalah?​",
@@ -49,7 +53,8 @@
       ],
       "isArabic": "تُسۡقٰى ...... اٰنِيَةٍؕ​",
       "jawaban": "B",
-      "penjelasan": "مِنۡ عَيۡنٍ​"
+      "penjelasan": "مِنۡ عَيۡنٍ​",
+      "description": ""
     },
     {
       "soal": "Perintah berhaji terdapat dalam Al Qur'an surat dan ayat berapa",
@@ -61,14 +66,16 @@
       ],
       "isArabic": "",
       "jawaban": "B",
-      "penjelasan": "Surat Al – Imran ayat 97​"
+      "penjelasan": "Surat Al – Imran ayat 97​",
+      "description": "Di dalamnya (Baitullah) terdapat tanda-tanda yang nyata, (tanda) tempat berdirinya Ibrahim. Dan barangsiapa memasukinya (Baitullah) amanlah dia. Dan (di antara) kewajiban manusia terhadap Allah adalah melaksanakan ibadah haji ke Baitullah, yaitu bagi orang-orang yang mampu mengadakan perjalanan ke sana. Barangsiapa mengingkari (kewajiban) haji, maka ketahuilah bahwa Allah Mahakaya (tidak memerlukan sesuatu) dari seluruh alam."
     },
     {
       "soal": "Jawaban yang tepat untuk melanjutkan ayat tersebut adalah ....​",
       "pilihan": ["شِدَادًا​", "مَعَاشًا​", "اَلۡفَافًا​", "اَفۡوَاجًا​"],
       "isArabic": "وَّجَعَلۡنَا النَّهَارَ​",
       "jawaban": "B",
-      "penjelasan": "مَعَاشًا​"
+      "penjelasan": "مَعَاشًا​",
+      "description": ""
     },
     {
       "soal": "Al Khaliq dalam asmaul husna memiliki arti ...",
@@ -80,14 +87,16 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "​Yang maha pencipta​"
+      "penjelasan": "​Yang maha pencipta​",
+      "description": ""
     },
     {
       "soal": "Ada berapa kitab suci yang Allah SWT turunkan kepada Rasulnya ...​",
       "pilihan": ["1 kitab", "2 kitab", "4 kitab", "5 kitab"],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "4 kitab"
+      "penjelasan": "4 kitab",
+      "description": ""
     },
     {
       "soal": "Imam ahmad bin hanbal lahir dimana dan tahun berapa ...​",
@@ -99,7 +108,8 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Mary (Turkmenistan) tahun 164 hijriah"
+      "penjelasan": "Mary (Turkmenistan) tahun 164 hijriah",
+      "description": ""
     }
   ]
 }

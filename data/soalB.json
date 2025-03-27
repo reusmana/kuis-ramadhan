@@ -6,14 +6,16 @@
       "pilihan": ["Haram", "Mubah", "Sunnah", "Wajib"],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "Wajib"
+      "penjelasan": "Wajib",
+      "description": ""
     },
     {
       "soal": "Mampu menafsirkan mimpi adalah mukjizat dari nabi ...",
       "pilihan": ["Syuaib As​", "Yaqub As", "Yusuf As​", "Musa As"],
       "isArabic": "",
       "jawaban": "C",
-      "penjelasan": "Yusuf As"
+      "penjelasan": "Yusuf As",
+      "description": ""
     },
     {
       "soal": "Sahabat yg di juluki Dzunnurain / pemilik dua cahaya adalah ...​",
@@ -25,7 +27,8 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Ustman Bin Affan​"
+      "penjelasan": "Ustman Bin Affan​",
+      "description": ""
     },
     {
       "soal": "Malaikat yang bertugas mencabut nyawa adalah ...​",
@@ -37,7 +40,8 @@
       ],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "Malaikat Izrail​"
+      "penjelasan": "Malaikat Izrail​",
+      "description": ""
     },
     {
       "soal": "Bacaan ayat yg tepat utk mengisi potongan ayat tsb adalah?​",
@@ -49,7 +53,8 @@
       ],
       "isArabic": "لَـيۡسَ لَهُمۡ ..... ضَرِيۡعٍۙ​",
       "jawaban": "D",
-      "penjelasan": "طَعَامٌ اِلَّا مِنۡ"
+      "penjelasan": "طَعَامٌ اِلَّا مِنۡ",
+      "description": ""
     },
     {
       "soal": "Perintah Menutup aurat / berhijab pada wanita terdapat dalam Al Qur'an pada surat dan ayat berapa ...",
@@ -61,7 +66,8 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Surat Al – Ahzab ayat 59​"
+      "penjelasan": "Surat Al – Ahzab ayat 59​",
+      "description": "Wahai Nabi! Katakanlah kepada istri-istrimu, anak-anak perempuanmu, dan istri-istri orang mukmin, Hendaklah mereka menutupkan jilbabnya ke seluruh tubuh mereka."
     },
     {
       "soal": "Jawaban yang tepat untuk melanjutkan ayat tersebut adalah ...​",
@@ -73,7 +79,8 @@
       ],
       "isArabic": " وَّخَلَقۡنٰكُمۡ​",
       "jawaban": "D",
-      "penjelasan": "اَزۡوَاجًا​"
+      "penjelasan": "اَزۡوَاجًا​",
+      "description": ""
     },
     {
       "soal": "Al Ghaffaar dalam asmaul husna memiliki arti ...​",
@@ -85,14 +92,16 @@
       ],
       "isArabic": "",
       "jawaban": "D",
-      "penjelasan": "Yang maha pengampun​"
+      "penjelasan": "Yang maha pengampun​",
+      "description": ""
     },
     {
       "soal": "Berapa jumlah Rasul yang wajib di ketahui adalah ...​",
       "pilihan": ["24 Rasul", "25 Rasul", "26 Rasul", "27 Rasul"],
       "isArabic": "",
       "jawaban": "B",
-      "penjelasan": "25 Rasul"
+      "penjelasan": "25 Rasul",
+      "description": ""
     },
     {
       "soal": "Muhamad bin idris / Imam syafi'i lahir dimana dan tahun berapa ...​",
@@ -104,7 +113,8 @@
       ],
       "isArabic": "",
       "jawaban": "A",
-      "penjelasan": "Ghaza (Palestine) tahun 150 hijriah​"
+      "penjelasan": "Ghaza (Palestine) tahun 150 hijriah​",
+      "description": ""
     }
   ]
 }
